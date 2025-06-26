@@ -16,7 +16,7 @@ const handleSubmit = (event) => {
 
     localStorage.setItem('player', input.value);
     localStorage.setItem('dificulty', form.elements.abacaxi.value);
-    window.location = '../pages/game.html';
+    window.location = 'game.html';
 }
 
 input.addEventListener('input', validateForm);
