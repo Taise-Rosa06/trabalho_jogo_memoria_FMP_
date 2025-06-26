@@ -98,7 +98,7 @@ const checkEndGame = () => {
             loadGame();
 
         } else {
-            window.location = '../index.html';
+            window.location = 'index.html';
         }
     }
 }
@@ -160,7 +160,7 @@ const createCard = (character) => {
     const front = createElement('div', 'face front');
     const back = createElement('div', 'face back');
 
-    front.style.backgroundImage = `url('../images/${character}.jpeg')`;
+    front.style.backgroundImage = `url('images/${character}.jpeg')`;
 
     card.appendChild(front);
     card.appendChild(back);
