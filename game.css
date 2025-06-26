@@ -6,7 +6,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 20px 20px 50px;
-    background-image: url('../images/background_game.jpg');
+    background-image: url('background_game.jpg');
     background-size: 300px 300px;
 
 }
@@ -64,7 +64,7 @@ header {
 }
 
 .back {
-    background-image: url('../images/capa.jpeg');
+    background-image: url('capa.jpeg');
     backface-visibility: hidden;
 }
 
